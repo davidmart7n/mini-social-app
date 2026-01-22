@@ -17,18 +17,18 @@ public class OpenApiConfig {
         return new OpenAPI()
                 .info(new Info()
                         .title("MiniSocial API")
-                        .description("API de prueba y demo de MiniSocial con arquitectura hexagonal")
+                        .description("Sample API of MiniSocial endpoints and architecture")
                         .version("1.0.0")
                         .contact(new Contact()
-                                .name("David")
-                                .email("tu-email@ejemplo.com")
-                                .url("https://github.com/tu-usuario"))
+                                .name("David Martín")
+                                .email("davidmartinencuentra@gmail.com")
+                                .url("https://github.com/davidmart7n"))
                         .license(new License()
                                 .name("Apache 2.0")
                                 .url("http://springdoc.org")))
                 .externalDocs(new ExternalDocumentation()
-                        .description("Repositorio GitHub del proyecto")
-                        .url("https://github.com/tu-usuario/MiniSocial"));
+                        .description("GitHub repository of the project")
+                        .url("https://github.com/davidmart7n/MiniSocial"));
     }
 
     @Bean
